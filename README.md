@@ -1,2 +1,2 @@
 # second-repo
-# this is edit section
+# This is a simple template
