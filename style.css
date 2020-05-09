@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.container1{
+    background-image: url(https://www.desktopbackground.org/p/2015/09/27/1017725_rolls-royce-wraith-wallpapers-images-photos-pictures-pics_1680x1050_h.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navigation{
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #503843;
+    margin: 0px 220px 0px 220px;
+    opacity:0.6;
+    display:flex;
+   
+}
+.navigation a{
+    padding: 44px 22px;
+    color: #EEFCFE;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.navigation  a:hover{
+    background-color: #200b15;
+    color: white;
+    font-size: 14px;
+    font-style: oblique;
+    font-family: fantasy;
+    
+}
+.nav1, .nav2{
+    padding: 23px;
+}
+.child1{
+    background-color: white;
+    color: #503843;
+    font-size: 27px;
+    margin: 100px 450px 0px 220px;
+    padding: 10px;
+}
+.child2{
+    background-color: #503843;
+    color: white;
+    font-size: 15px;
+    margin: 0px 510px 0px 220px;
+    opacity: 6;
+    padding: 5px;
+}
+.container2 {
+    margin: 60px, 0px, 40px, 0px;
+    text-align: center;
+
+    
+}
+.container2 .child1{
+    color: black;
+    font-size: 33px;
+    margin: 30px 50px 5px}
+.container2 .child2{
+    color: black;
+    background-color: #fff;
+    margin-bottom: 50px;
+    font-size: 10px;
+    margin-left: 400px;
+    margin-right: 380px;
+}
+.container3{
+    text-align: center;
+    display: flex;
+    flex-direction: row ;
+    margin:5px 170px;
+
+}
+.box{
+    text-align: center;
+    font-size: 15px;
+}
+.box i {padding: 10px;
+       margin-bottom: 13px;}
+.box p{padding: 10px;
+    font-family: fantasy;
+   }
+.box i{
+    border: 1px solid black ;
+    border-radius: 66%;
+    background-color: #503843;
+    color:white;
+}
+#info{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.description{
+    background-color: #0C1011 ;
+    color: white;
+    height: 280px;
+    text-align: center;
+    padding: 60px;
+    line-height: 27px;
+}
+.description h1{
+    font-size: 25px;
+    font-family: fantasy;
+    padding-bottom: 18px;
+
+}
+.description p{
+    font-size: 14px;
+    font-family: fantasy;
+    margin-bottom: 13px;
+}
+.description a{
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+    background-color: #503843;
+    padding: 12px 43px;
+    margin-bottom: 20px;
+}
+.description  a:hover{
+    background-color: #200b15;
+    color: white;
+    font-size: 14px;
+    font-style: oblique;
+    font-family: fantasy;}
+.models{
+    color: black;
+    text-align: center;
+    padding: 40px 10px;
+    
+}
+.models h1{
+    font-size: 25px;
+    font-family: fantasy;
+    padding-bottom: 18px;
+}
+.models p{
+    font-size: 14px;
+    font-family: fantasy;
+    margin-bottom: 13px;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+
+}
+.container3 img{
+    width: 220px;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.model-box {
+    padding: 12px;
+}
+.model-box p{
+    font-size: 12px;
+    font-family: fantasy;
+}
+.information{
+    background-color: #0C1011;
+    color: white;
+    text-align: center;
+    padding: 45px;
+    line-height: 23px;
+
+}
+.information h1{
+    font-size: 25px;
+    font-family: fantasy;
+    padding-bottom: 18px;
+}
+.information p{
+    font-size: 14px;
+    font-family: fantasy;
+    margin-bottom: 13px;
+}
+.footer{
+    background-color: #2f2228;
+    color: white;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 14px;
+    font-family: fantasy;
+}
+
+
+@media (max-width:768px) and (min-width:520px){
+    .navigation{
+        margin:0px;
+        background-repeat: no-repeat;
+
+    }
+    .container1{
+        
+        background-size: 100%;
+        background-size: cover;
+
+       
+    }
+    .navigation a{
+        padding: 15px;
+
+    }
+
+    .nav1, .nav2{
+        padding:8px;
+    }
+    
+
+    .note .child1{
+        font-size:16px;
+        width:300px;
+        padding:7px;
+        margin-top:170px;
+        margin-left:160px;
+        
+    }
+    
+    .note .child2{
+        width:329px;
+        padding:7px;
+        margin-left:160px;
+        font-size:11px;
+    }  
+    .container2 .child2{
+        width: 330px;
+        margin-left: 200px;
+        
+    }
+    
+    
+    .box{
+        width:50%;
+    
+    }
+    #info{font-size: 17px;}
+    .box p{
+        margin-left: 40px;
+        font-size: 13px;
+    }
+
+    .description h1{
+        font-size:19px;
+    }
+
+    .description p{
+        font-size:11px;
+    }
+
+    .description a{padding: 7px;
+    }
+
+    .models h1{
+        font-size:27px;
+    }
+    
+    .models p{
+        font-size:11px;
+    }
+    
+    .container3{
+        flex-wrap: wrap;
+    }
+    .container3 img{
+        width: 300px;
+        height: 250px;
+    }
+
+    .information h1{
+        font-size:22px;
+    
+    }
+    
+    .information p{
+        font-size:12px;
+    }
+    .footer p{
+        font-size: 11px;
+    }
+    }
+
+    @media (max-width:520px){
+        .navigation{
+            margin:0px;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+        }
+       
+        .navigation a{
+            padding: 5px;
+    
+        }
+    
+        .nav1, .nav2{
+            padding:6px;
+        }
+        .note .child1{
+            font-size:16px;
+            width:300px;
+            padding:7px;
+            margin-top:170px;
+            margin-left:160px;
+            
+        }
+        
+        .note .child2{
+            width:329px;
+            padding:7px;
+            margin-left:160px;
+            font-size:11px;
+        }  
+        
+        .container2 .child2{
+            width: 330px;
+            margin-left: 100px;
+            
+        }
+        
+        #info{font-size: 15px;}
+        .box i {
+            margin-left: 40px;
+        }
+        .box p{
+            margin-left: 40px;
+            font-size: 13px;
+        }
+    
+        .description h1{
+            font-size:19px;
+        }
+    
+        .description p{
+            font-size:11px;
+        }
+    
+        .description a{padding: 7px;
+        }
+    
+        .models h1{
+            font-size:27px;
+        }
+        
+        .models p{
+            font-size:11px;
+        }
+        
+        .container3{
+            flex-wrap: wrap;
+        }
+        .container3 img{
+            width: 300px;
+            height: 250px;
+        }
+    
+        .information h1{
+            font-size:22px;
+        
+        }
+        
+        .information p{
+            font-size:12px;
+        }
+        .footer p{
+            font-size: 11px;
+        }
+        }
+
+/**starts the media-quieries for tablet**/
+
+@media (max-width:1024px) and (min-width:768px){
+        .navigation{
+            margin:0px;
+            
+    
+        }
+       
+        .navigation a{
+            padding: 16px;
+    
+        }
+
+    
+        .nav1, .nav2{
+            padding:9px;
+        }
+        
+
+    
+        .note .child1{
+            font-size:17px;
+            width:330px;
+            padding:7px;
+            margin-top:170px;
+            margin-left:160px;
+            
+        }
+        
+        .note .child2{
+            width:360px;
+            padding:7px;
+            margin-left:160px;
+            font-size:12px;
+        }  
+        
+        
+        
+        #info{font-size: 18px;}
+        .box p{
+            margin-left: 40px;
+            font-size: 14px;
+        }
+    
+        .description h1{
+            font-size:21px;
+        }
+    
+        .description p{
+            font-size:13px;
+        }
+    
+        .description a{padding: 8px;
+        }
+    
+        .models h1{
+            font-size:27px;
+        }
+        
+        .models p{
+            font-size:11px;
+        }
+        
+       
+    
+        .information h1{
+            font-size:22px;
+        
+        }
+        
+        .information p{
+            font-size:13px;
+        }
+        .footer p{
+            font-size: 13px;
+        }
+        }
+
+        
